@@ -291,3 +291,7 @@ extraVolumeMounts: []
 #     subPath: example_exec_env
 #     readOnly: true
 
+## Secrets as environment variables
+## If defined, these secrets are mounted as environment variables
+## envFrom:
+##   - my-env-secret-1
